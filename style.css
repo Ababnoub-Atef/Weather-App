@@ -136,15 +136,19 @@ nav.navbar .container #navbarSupportedContent .navbar-nav .active::before {
 
 /* &<search> */
 
-.col-md-4 {
+/* *<data> */
+
+.col-12 {
   scale: 1;
   filter: brightness(1);
   transition: all 0.3s ease-in-out;
 }
 
-.col-md-4:hover {
+.col-12:hover {
   scale: 1.08;
   filter: brightness(1.3);
 }
+
+/* *</data> */
 
 /* #</header> */

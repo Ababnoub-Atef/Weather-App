@@ -172,7 +172,7 @@ searchInput.addEventListener("input", function () {
 getWeather("alexandria");
 
 
-var currentLocation = window.location
-var url = currentLocation.href
-var protocol = currentLocation.protocol
-console.log(protocol);
+// var currentLocation = window.location
+// var url = currentLocation.href
+// var protocol = currentLocation.protocol
+// console.log(protocol);
