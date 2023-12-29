@@ -152,3 +152,42 @@ nav.navbar .container #navbarSupportedContent .navbar-nav .active::before {
 /* *</data> */
 
 /* #</header> */
+
+/* ?<footer> */
+
+input#subscribe {
+  padding: 14px 20px;
+  border: solid 1px var(--primary-color);
+  outline: none;
+  background-color: var(--color4);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.col-md-8 {
+  position: relative;
+}
+
+.col-md-8 button {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg-icon{
+  width: 2.25rem;
+  height: 2.25rem;
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: #1E202B;
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-icon:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+/* ?</footer> */
