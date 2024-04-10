@@ -5,10 +5,14 @@ async function getWeather(city) {
 
   if (response.ok === true && response.status === 200) {
     var data = await response.json();
-
     displayWeather(data);
   }
 }
+
+
+document.addEventListener('click'  , function(e) {
+  console.log(e.target);
+})
 
 var data = [];
 
